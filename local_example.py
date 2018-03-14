@@ -5,7 +5,7 @@ import agent
 def lets_play(env, n_seats, model_list):
     while True:
         cur_state = env.reset()
-        env.render(mode='human')
+        env.render(mode='machine')
         cycle_terminal = False
         # (cur_state)
         if env.episode_end:
@@ -30,7 +30,7 @@ def lets_play(env, n_seats, model_list):
             # print("reward(t+1)")
             # print(rews)
             # print("<<< Debug Information ")
-            env.render(mode="human")
+            env.render(mode="machine")
         # print("final state")
         # print(cur_state)
 
@@ -70,10 +70,10 @@ env.add_player(7, stack=1000) # add another player to seat 3 with 1000 "chips"
 model_list.append(agent.allFoldModel())
 
 env.add_player(8, stack=1000) # add another player to seat 3 with 1000 "chips"
-model_list.append(agent.allFoldModel())
+model_list.append(agent.allRaiseModel())
 
 env.add_player(9, stack=1000) # add another player to seat 3 with 1000 "chips"
-model_list.append(agent.allinModel())
+model_list.append(agent.allFoldModel())
 
 # play out a hand
 lets_play(env, env.n_seats, model_list)

@@ -23,7 +23,7 @@ class allRaiseModel():
 
     def takeAction(self, state, playerid):
         ''' (Predict/ Policy) Select Action under state'''
-        return ACTION(action_table.RAISE, state.community_state.to_call * 2)
+        return ACTION(action_table.RAISE, state.community_state.to_call )
 
     def getReload(self, state):
         '''return `True` if reload is needed under state, otherwise `False`'''

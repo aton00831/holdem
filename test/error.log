@@ -1,0 +1,196 @@
+Cycle 1, total pot: 35
+community:
+- [  ],[  ],[  ],[  ],[  ]
+players:
+0 [J♦],[J♥] stack: 1000
+1 [Q♣],[8♣] stack: 1990
+2 [3♠],[7♦] stack: 2975
+3 [4♦],[8♦] stack: 1000
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=1, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1990, playing_hand=1, handrank=-1, playedthisround=0, betting=10, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=1000, playing_hand=1, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=35, lastraise=25, call_price=50, to_call=25, current_player=3)
+
+Test State :  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 1000, 25]
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [0, 0], [0, 0], [1, 25]]
+reward(t+1)
+[1000, 1990, 2975, 975]
+Cycle 1, total pot: 60
+last action by player 3:        - call, current bet: 25
+community:
+- [  ],[  ],[  ],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1990
+2 [3s],[7d] stack: 2975
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=1, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1990, playing_hand=1, handrank=-1, playedthisround=0, betting=10, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=60, lastraise=25, call_price=50, to_call=25, current_player=0)
+
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[3, 0], [0, 0], [0, 0], [0, 0]]
+reward(t+1)
+[1000, 1990, 2975, 975]
+Cycle 1, total pot: 60
+last action by player 0:        x fold
+community:
+- [  ],[  ],[  ],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1990
+2 [3s],[7d] stack: 2975
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1990, playing_hand=1, handrank=-1, playedthisround=0, betting=10, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=60, lastraise=25, call_price=50, to_call=15, current_player=1)
+
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [1, 15], [0, 0], [0, 0]]
+reward(t+1)
+[1000, 1975, 2975, 975]
+Cycle 1, total pot: 75
+last action by player 1:        - call, current bet: 25
+community:
+- [  ],[  ],[  ],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2975
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=75, lastraise=25, call_price=50, to_call=0, current_player=2) action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [0, 0], [0, 0], [0, 0]]
+reward(t+1)
+[1000, 1975, 2975, 975]
+Cycle 1, total pot: 75
+last action by player 2:        _ check
+community:
+- [  ],[  ],[  ],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2975
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=75, lastraise=25, call_price=50, to_call=0, current_player=3) Test State :  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 75, 975, 0]
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [0, 0], [0, 0], [0, 0]]
+reward(t+1)
+[1000, 1975, 2975, 975]
+Cycle 1, total pot: 75
+last action by player 3:        _ check
+community:
+- [4s],[Ah],[Tc],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2975
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=75, lastraise=0, call_price=25, to_call=0, current_player=1)
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [0, 0], [0, 0], [0, 0]]
+reward(t+1)
+[1000, 1975, 2975, 975]
+Cycle 1, total pot: 75
+last action by player 1:        _ check
+community:
+- [4s],[Ah],[Tc],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2975
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=1, handrank=-1, playedthisround=1, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=75, lastraise=0, call_price=25, to_call=0, current_player=2)
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [0, 0], [2, 50], [0, 0]]
+reward(t+1)
+[1000, 1975, 2925, 975]
+Cycle 1, total pot: 125
+last action by player 2:        ^ raise, current bet: 50
+community:
+- [4s],[Ah],[Tc],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2925
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2925, playing_hand=1, handrank=-1, playedthisround=1, betting=75, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=125, lastraise=50, call_price=100, to_call=50, current_player=3)
+Test State :  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 125, 975, 50]
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [0, 0], [0, 0], [3, 0]]
+reward(t+1)
+[1000, 1975, 2925, 975]
+Cycle 1, total pot: 125
+last action by player 3:        x fold
+community:
+- [4s],[Ah],[Tc],[  ],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2925
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=1, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2925, playing_hand=1, handrank=-1, playedthisround=1, betting=75, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=0, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=125, lastraise=50, call_price=100, to_call=50, current_player=1)
+action(t), (CALL=1, RAISE=2, FOLD=3 , CHECK=0, [action, amount])
+[[0, 0], [3, 0], [0, 0], [0, 0]]
+reward(t+1)
+[1000, 1975, 2925, 975]
+Cycle 1, total pot: 125
+last action by player 1:        x fold
+community:
+- [4s],[Ah],[Tc],[Qd],[  ]
+players:
+0 [Jd],[Jh] stack: 1000
+1 [Qc],[8c] stack: 1975
+2 [3s],[7d] stack: 2925
+3 [4d],[8d] stack: 975
+state(t)
+player_state(emptyplayer=0, seat=0, stack=1000, playing_hand=0, handrank=-1, playedthisround=0, betting=0, isallin=0, lastsidepot=0, reloadCount=0, hand=[33573149, 33564957])
+player_state(emptyplayer=0, seat=1, stack=1975, playing_hand=0, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[67144223, 4228625])
+player_state(emptyplayer=0, seat=2, stack=2925, playing_hand=1, handrank=-1, playedthisround=0, betting=75, isallin=0, lastsidepot=0, reloadCount=0, hand=[135427, 2114829])
+player_state(emptyplayer=0, seat=3, stack=975, playing_hand=0, handrank=-1, playedthisround=0, betting=25, isallin=0, lastsidepot=0, reloadCount=0, hand=[279045, 4212241])
+community_state(button=0, smallblind=10, bigblind=25, totalpot=125, lastraise=0, call_price=25, to_call=0, current_player=2) Traceback (most recent call last):
+  File "valid_example.py", line 76, in <module>
+    lets_play(env, env.n_seats, model_list)
+  File "valid_example.py", line 44, in lets_play
+    cur_state, rews, cycle_terminal, info = env.step(actions)
+  File "D:\GIT\holdem\holdem\env.py", line 188, in step
+    raise error.Error('Round cannot be played with one player.')
+gym.error.Error: Round cannot be played with one player.
